@@ -680,7 +680,7 @@ const spells = {
     id: 114908,
     name: "Spirit Shell",
     icon: "ability_shaman_astralshift.jpg"
-  },
+  }
 } as const;
 
 export default spells;

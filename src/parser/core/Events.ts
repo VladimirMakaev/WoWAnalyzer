@@ -460,6 +460,7 @@ export interface RemoveDebuffStackEvent extends BuffEvent<EventType.RemoveDebuff
 
 export interface RefreshBuffEvent extends BuffEvent<EventType.RefreshBuff> {
   source?: { name: 'Environment'; id: -1; guid: 0; type: 'NPC'; icon: 'NPC' };
+  absorb?: number;
 }
 
 export interface RefreshDebuffEvent extends BuffEvent<EventType.RefreshDebuff> {

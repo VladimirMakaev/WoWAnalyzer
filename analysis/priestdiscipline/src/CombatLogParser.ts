@@ -45,6 +45,7 @@ import Contrition from './modules/spells/Contrition';
 import Grace from './modules/spells/Grace';
 import Schism from './modules/spells/Schism';
 import SinsOfTheMany from './modules/spells/SinsOfTheMany';
+import SpiritShell from './modules/spells/SpiritShell';
 
 import ShiningRadiance from './modules/shadowlands/conduits/ShiningRadiance';
 
@@ -102,6 +103,7 @@ class CombatLogParser extends CoreCombatLogParser {
     // Covenants
     unholyNova: UnholyNova,
     mindgames: Mindgames,
+    spiritShell: SpiritShell,
     boonOfTheAscended: BoonOfTheAscended,
     faeGuardians: FaeGuardians,
 
